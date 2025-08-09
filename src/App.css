@@ -1,0 +1,23 @@
+body{
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.CSE, .ECE, .Civil, .Mech{
+  display: inline-block;
+  padding: 64px;
+  border: 2px solid #ffffff;
+  margin-right: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 80px;
+  min-height: 250px;
+  vertical-align: top ;
+}
+
+.library-image{
+  width: 30%;
+  height: 10%;
+  border-radius: 10px;
+}

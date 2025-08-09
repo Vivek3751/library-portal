@@ -1,0 +1,45 @@
+.Cse {
+  text-align: center;
+  background-color: #000;
+  color: white;
+  padding: 20px;
+}
+
+.book-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.book-card {
+  background-color: #1e1e1e;
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+.book-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.book-card h3 {
+  margin: 10px 0 5px;
+}
+
+button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: #00aaff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0088cc;
+}
